@@ -1,5 +1,13 @@
 # Alternate Chess Games
 
+## Table of Contents
+ - [Tank Chess](#tank-chess)
+ - [Tower Chess](#tower-chess)
+ - [Poison Tower Chess](#poison-tower-chess)
+ - [Good and Evil Chess](#good-and-evil-chess)
+ - [Tunnel Chess](#tunnel-chess)
+ - [King Archer Chess](#king-archer-chess)
+
 ## Tank Chess
 - Dec 5, 2020, E and T
 
