@@ -94,11 +94,11 @@ Same as Tower Chess but with the following changes:
    - If any piece lands/walks on/over the end, that piece is removed from the board
 5. Once both ends of the tunnel have been dug
    - If any piece lands/walks on/over either end, that piece is placed at the other end of the tunnel
+   - If a piece can attack an end of the tunnel, a king on the other end is in check.
    - The tunnel is bidirectional, pieces can enter and exit either end
    - The tunnel is usable by both players
 6. The tunnel is blocked if the other end of the tunnel is occupied by a piece of the same color
-7. If the tunnel is blocked, a king is in check behind/through the open end of the tunnel
-8. If the tunnel is not blocked, a king is not in check behind/through an end of the tunnel
+   - If the tunnel is blocked, a king is in check behind/through the open end of the tunnel
 
 ---------------------
 ## King Archer Chess
