@@ -113,5 +113,5 @@ Same as Tower Chess but with the following changes:
  | Number of Arrows | 3 | 1-infinite | 
  | Arrow Range | 4 | 1-infinite | 
  | Over Other Pieces | yes  | no |
- | Protection/Shield | pawns  | other pieces | 
+ | Protection/Shield | pawns  | other pieces / none | 
 
