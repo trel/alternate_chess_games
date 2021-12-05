@@ -8,6 +8,7 @@
  - [Tunnel Chess](#tunnel-chess)
  - [King Archer Chess](#king-archer-chess)
  - [King Pawn Chess](#king-pawn-chess)
+ - [Spy Chess](#spy-chess)
 
 ## Tank Chess
 - Dec 5, 2020, E and T
@@ -74,12 +75,16 @@ Same as Tower Chess but with the following changes:
 - Dec 12, 2020, E and T
 
 1. Each player may mark one unoccupied square as either good or evil
+
 2. It takes a turn to mark a square as good or evil
+
 3. Both good and evil squares last throughout the game
+
 4. Good squares
    - If any piece lands on a good square, that player restores one removed piece
      - The restored piece must be placed on one of its original unoccupied spaces (queen on queen space, knight on either knight space, etc.)
    - A king is in check behind/through a good square
+
 5. Evil squares
    - If any piece lands/walks on/over an evil square, that piece is removed from the board
    - A king is not in check behind/through an evil square
@@ -89,15 +94,20 @@ Same as Tower Chess but with the following changes:
 - Dec 20, 2020, E and O and T
 
 1. Two ends of the tunnel can be dug on the board, one by each player
+
 2. An end may be dug at any time during the game
+
 3. It takes a turn to dig an end of the tunnel
+
 4. When only a single end of the tunnel has been dug
    - If any piece lands/walks on/over the end, that piece is removed from the board
+
 5. Once both ends of the tunnel have been dug
    - If any piece lands/walks on/over either end, that piece is placed at the other end of the tunnel
    - If a piece can attack an end of the tunnel, a king on the other end is in check.
    - The tunnel is bidirectional, pieces can enter and exit either end
    - The tunnel is usable by both players
+
 6. The tunnel is blocked if the other end of the tunnel is occupied by a piece of the same color
    - If the tunnel is blocked, a king is in check behind/through the open end of the tunnel
 
@@ -125,3 +135,19 @@ Same as Tower Chess but with the following changes:
  | Game Element | Default | Alternate Values |
  | :---   |  :----:  |  :----:  |
  | Pawn Protection/Shield | none | other pieces | 
+
+---------------------
+## Spy Chess
+- Dec 4, 2021, E and O and T
+
+1. Before the game begins, each player privately designates and records one opposing non-king piece as their spy
+
+2. A spy can refuse to carry out any move, and then is immediately removed from the board and uses the player's turn
+
+3. A player can interrogate any piece suspected to be a spy and uses the player's turn
+   - If the interrogated piece is a spy, it is no longer a spy
+   - If the interrogated piece is not a spy, it is immediately removed from the board
+
+ | Game Element | Default | Alternate Values |
+ | :---   |  :----:  |  :----:  |
+ | Number of Interrogations | 1 | 2-15 | 
