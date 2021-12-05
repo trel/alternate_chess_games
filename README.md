@@ -138,15 +138,34 @@ Same as Tower Chess but with the following changes:
 
 ---------------------
 ## Spy Chess
-- Dec 4, 2021, E and O and T
+- Dec 4-5, 2021, E and O and T
 
-1. Before the game begins, each player privately designates and records one opposing non-king piece as their spy
+1. Copy the following tables onto two pieces of paper, one for each player
 
-2. A spy can refuse to carry out any move, and then is immediately removed from the board and uses the player's turn
+    - White (marking Black) 
 
-3. A player can interrogate any piece suspected to be a spy and uses the player's turn
-   - If the interrogated piece is a spy, it is no longer a spy
-   - If the interrogated piece is not a spy, it is immediately removed from the board
+         | | a | b | c | d | e | f | g | h |
+         | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+         | 8 | rook | knight | bishop | queen | X | bishop | knight | rook |
+         | 7 | pawn-a | pawn-b | pawn-c | pawn-d | pawn-e | pawn-f | pawn-g | pawn-h |
+
+    - Black (marking White) 
+
+         | h | g | f | e | d | c | b | a | |
+         | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+         | rook | knight | bishop | X | queen | bishop | knight | rook | 1 |
+         | pawn-h | pawn-g | pawn-f | pawn-e | pawn-d | pawn-c | pawn-b | pawn-a | 2 |
+
+2. Each player privately marks/circles one opposing non-king piece as their spy 
+
+3. A spy can refuse to carry out any move
+   - Upon doing so, the spy is immediately removed from the board
+   - This ends the turn for the player who made the move
+
+4. Instead of a move, a player can interrogate one of their pieces, suspected to be a spy
+   - The other player reveals only the space on their paper representing the interrogated piece
+     - If the interrogated piece is a spy, it remains on the board, but is no longer a spy
+     - If the interrogated piece is not a spy, it is immediately removed from the board
 
  | Game Element | Default | Alternate Values |
  | :---   |  :----:  |  :----:  |
