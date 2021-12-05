@@ -7,6 +7,7 @@
  - [Good and Evil Chess](#good-and-evil-chess)
  - [Tunnel Chess](#tunnel-chess)
  - [King Archer Chess](#king-archer-chess)
+ - [King Pawn Chess](#king-pawn-chess)
 
 ## Tank Chess
 - Dec 5, 2020, E and T
@@ -113,5 +114,14 @@ Same as Tower Chess but with the following changes:
  | Number of Arrows | 3 | 1-infinite | 
  | Arrow Range | 4 | 1-infinite | 
  | Over Other Pieces | yes  | no |
- | Protection/Shield | pawns  | other pieces / none | 
+ | Arrow Protection/Shield | pawns  | other pieces / none | 
 
+---------------------
+## King Pawn Chess
+- Dec 4, 2021, E and O and T
+
+1. Every pawn can move (and attack) like a king, in addition to its regular initial two-square advance
+
+ | Game Element | Default | Alternate Values |
+ | :---   |  :----:  |  :----:  |
+ | Pawn Protection/Shield | none | other pieces | 
